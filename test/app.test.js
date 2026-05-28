@@ -190,6 +190,8 @@ describe('API Contacts - Ejercicio 6 Avanzado', () => {
     });
   });
 
+  //. 
+
   // ── Bloque F: Middleware de error y formato uniforme
   describe('Middleware de error - Formato uniforme', () => {
     test('ruta inexistente devuelve 404 con JSON', async () => {
