@@ -14,6 +14,7 @@ function validateContact({ name, email }) {
   }
   return { valid: true };
 }
+//
 
 // ── Datos iniciales en memoria (estructura mejorada)
 let contacts = [
@@ -154,4 +155,4 @@ app.use((err, req, res, next) => {
 
 module.exports = { app, resetContacts };
 
-// .
+// ..
